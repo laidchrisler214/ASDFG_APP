@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChapterFiveDescCell" rowHeight="45" id="ixF-4t-uz3" customClass="ChapterFiveDescCell" customModule="ASDFG" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ixF-4t-uz3" id="hRw-De-l1d">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="47.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="asdasdasd" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UUb-0d-ayS">
+                        <rect key="frame" x="8" y="7" width="359" height="33.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="UUb-0d-ayS" secondAttribute="trailing" constant="8" id="250-hK-MvB"/>
+                    <constraint firstItem="UUb-0d-ayS" firstAttribute="leading" secondItem="hRw-De-l1d" secondAttribute="leading" constant="8" id="OMO-NS-K2H"/>
+                    <constraint firstItem="UUb-0d-ayS" firstAttribute="top" secondItem="hRw-De-l1d" secondAttribute="top" constant="7" id="c6X-4M-7FT"/>
+                    <constraint firstAttribute="bottom" secondItem="UUb-0d-ayS" secondAttribute="bottom" constant="7" id="iX3-Hr-mQz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageDesc" destination="UUb-0d-ayS" id="kTj-1a-sfZ"/>
+            </connections>
+            <point key="canvasLocation" x="72" y="-57"/>
+        </tableViewCell>
+    </objects>
+</document>

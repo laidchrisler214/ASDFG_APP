@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChapterSevenPointersCell" rowHeight="72" id="QzR-kN-A3t" customClass="ChapterSevenPointersCell" customModule="ASDFG" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="69"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QzR-kN-A3t" id="8Rq-EH-oxT">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="68.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADASdqp" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhV-4a-hHg">
+                        <rect key="frame" x="53" y="25" width="298" height="37"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dot" translatesAutoresizingMaskIntoConstraints="NO" id="opc-dh-pmX">
+                        <rect key="frame" x="8" y="25" width="37" height="37"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="37" id="5kg-6z-dIP"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fhV-4a-hHg" firstAttribute="top" secondItem="8Rq-EH-oxT" secondAttribute="top" constant="25" id="PGr-rZ-Djc"/>
+                    <constraint firstAttribute="bottom" secondItem="opc-dh-pmX" secondAttribute="bottom" constant="6.5" id="hdG-Eo-VKd"/>
+                    <constraint firstItem="fhV-4a-hHg" firstAttribute="leading" secondItem="opc-dh-pmX" secondAttribute="trailing" constant="8" id="lmj-Av-FQN"/>
+                    <constraint firstAttribute="bottom" secondItem="fhV-4a-hHg" secondAttribute="bottom" constant="7" id="mJg-FG-q1O"/>
+                    <constraint firstItem="opc-dh-pmX" firstAttribute="top" secondItem="8Rq-EH-oxT" secondAttribute="top" constant="25" id="rvD-GP-gDq"/>
+                    <constraint firstAttribute="trailing" secondItem="fhV-4a-hHg" secondAttribute="trailing" constant="24" id="tMS-eO-dD5"/>
+                    <constraint firstItem="opc-dh-pmX" firstAttribute="leading" secondItem="8Rq-EH-oxT" secondAttribute="leading" constant="8" id="yGz-Ik-GL0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="pointer" destination="fhV-4a-hHg" id="iRG-A2-eiY"/>
+            </connections>
+            <point key="canvasLocation" x="-3.5" y="-278.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dot" width="24" height="24"/>
+    </resources>
+</document>

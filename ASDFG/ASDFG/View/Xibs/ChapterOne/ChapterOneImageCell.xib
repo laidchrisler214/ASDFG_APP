@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChapterOneImageCell" rowHeight="376" id="0yr-XU-3fL" customClass="ChapterOneImageCell" customModule="ASDFG" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="376"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0yr-XU-3fL" id="m6R-Ii-kNW">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="375.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QBa-Qh-cij">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="375" id="3tQ-pB-Keb"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QBa-Qh-cij" firstAttribute="leading" secondItem="m6R-Ii-kNW" secondAttribute="leading" id="bHi-Mn-thk"/>
+                    <constraint firstAttribute="trailing" secondItem="QBa-Qh-cij" secondAttribute="trailing" id="h6Q-IQ-7dE"/>
+                    <constraint firstAttribute="bottom" secondItem="QBa-Qh-cij" secondAttribute="bottom" id="nF4-Vb-WDx"/>
+                    <constraint firstItem="QBa-Qh-cij" firstAttribute="top" secondItem="m6R-Ii-kNW" secondAttribute="top" id="q6e-w8-otT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentImage" destination="QBa-Qh-cij" id="DiJ-lE-Py2"/>
+            </connections>
+            <point key="canvasLocation" x="1.5" y="74"/>
+        </tableViewCell>
+    </objects>
+</document>

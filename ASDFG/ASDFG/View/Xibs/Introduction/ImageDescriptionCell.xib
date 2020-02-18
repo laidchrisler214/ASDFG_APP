@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ImageDescriptionCell" rowHeight="45" id="DeQ-gy-jqe" customClass="ImageDescriptionCell" customModule="ASDFG" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DeQ-gy-jqe" id="7Bs-uJ-yFm">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="47.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="asdasdasd" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jdI-Tp-ZZS">
+                        <rect key="frame" x="8" y="7" width="359" height="33.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="jdI-Tp-ZZS" secondAttribute="trailing" constant="8" id="OVN-ZU-FZv"/>
+                    <constraint firstAttribute="bottom" secondItem="jdI-Tp-ZZS" secondAttribute="bottom" constant="7" id="QtK-Zq-n5P"/>
+                    <constraint firstItem="jdI-Tp-ZZS" firstAttribute="top" secondItem="7Bs-uJ-yFm" secondAttribute="top" constant="7" id="ats-t4-5Jm"/>
+                    <constraint firstItem="jdI-Tp-ZZS" firstAttribute="leading" secondItem="7Bs-uJ-yFm" secondAttribute="leading" constant="8" id="xvP-eV-HU1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentDescription" destination="jdI-Tp-ZZS" id="8L7-lB-yhv"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="-139"/>
+        </tableViewCell>
+    </objects>
+</document>
